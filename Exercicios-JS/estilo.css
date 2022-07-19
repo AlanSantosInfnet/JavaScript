@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #304D64;
+
+}
+
+#q1, #q2, #q3, #q4, #q5, #q6{
+    background: white;
+    width: 360px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10%;
+}
+
+input {
+    margin:10px
+}
+
+#botaoRel, button {
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+#botaoRel:hover, button:hover{
+    background: rgb(231, 229, 229);
+
+}
+
+
+
+#logado {
+    visibility: hidden;
+}
